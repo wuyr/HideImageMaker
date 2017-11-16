@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">隐藏图片制作器</string>
+    <string name="select_image">选择一张图片</string>
+    <string name="press_back_exit">再按一次退出</string>
+    <string name="about" formatted="true">本软件完全免费\n喜欢本软件的小伙伴\n欢迎向穷得吃不起饭的\n渣渣开发者捐赠\n谢谢! 好人一生平安\n\n本软件已开源，项目地址:\nhttps://www.github.com/wuyr/hideimagemaker\n点击访问, 欢迎star</string>
+    <string name="alipay">支付宝</string>
+    <string name="wechat">微信</string>
+    <string name="no">不捐了</string>
+    <string name="no_permission">请不要拒绝获取储存卡读写权限</string>
+    <string name="i_know">知道了</string>
+    <string name="finish">处理完成! 点击大图片切换预览状态, 长按大图片保存 (发隐藏图片的时候记得勾选原图才能正常显示)</string>
+    <string name="save_failed">保存图片失败! 读写出错</string>
+    <string name="saved_to">成功保存在:</string>
+    <string name="thanks">谢谢！ 好人一生平安</string>
+</resources>
