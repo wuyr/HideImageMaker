@@ -23,7 +23,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.wuyr.hideimagemaker.R;
 import com.wuyr.hideimagemaker.utils.BitmapPixelUtil;
@@ -100,24 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void showAboutDialog() {
         new AlertDialog.Builder(this).setView(R.layout.dialog_about_view)
-                .setPositiveButton(R.string.alipay, (dialog, which) -> {
-                    dialog.dismiss();
-                    showAliPayDialog();
-                })
-                .setNeutralButton(R.string.no, null).setNegativeButton(R.string.wechat, (dialog, which) -> {
-            dialog.dismiss();
-            showWeChatDialog();
-        }).setCancelable(false).show();
-    }
-
-    private void showAliPayDialog() {
-        new AlertDialog.Builder(this).setView(R.layout.dialog_alipay_view).show();
-        Toast.makeText(this, R.string.thanks, Toast.LENGTH_LONG).show();
-    }
-
-    private void showWeChatDialog() {
-        new AlertDialog.Builder(this).setView(R.layout.dialog_wechat_view).show();
-        Toast.makeText(this, R.string.thanks, Toast.LENGTH_LONG).show();
+                .setPositiveButton(R.string.i_know, null).setCancelable(false).show();
     }
 
     private void handleOnClickEvent() {

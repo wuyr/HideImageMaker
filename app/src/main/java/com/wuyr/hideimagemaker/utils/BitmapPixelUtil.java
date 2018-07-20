@@ -9,10 +9,6 @@ import android.graphics.Matrix;
  */
 
 @SuppressWarnings({"unused", "WeakerAccess"})
-/**
- * 由于本人英语水平差，有些专业术语找不到比直接用中文更容易理解的词，
- * 所以直接用中文了，见谅！ 当然，不提倡用中文写代码
- */
 public class BitmapPixelUtil {
     /**
      * 亮, 暗色阶映射表
